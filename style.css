@@ -1,0 +1,61 @@
+body{
+    background-image:url("fundo.jpg");
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    font-family:'Gill Sans MT', sans-serif;
+    font-size: large;
+    background-color: rgba(231, 22, 22, 0.815);
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.form .input-texto > input {
+    display: block;
+    width: 75%;
+    height: 23px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.form .titulo{
+    margin-bottom: 10px;
+}
+
+.form .btn-logar{
+    background-color: rgba(235, 146, 146, 0.678);
+    width: 25%;
+    height: 25px;
+    border-radius: 15px;
+    margin: 5px 0;
+}
+
+.form .infos > input {
+    display: auto;
+    width: 70%;
+    height: 23px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.form .btn-cadastrar{
+    background-color: rgba(235, 146, 146, 0.678);
+    width: 25%;
+    height: 25px;
+    border-radius: 15px;
+    margin: 5px 0;
+ }
+
+ .form .concluido{
+    text-align: center;
+    font-size:larger;
+    font-style: oblique;
+ }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form action="login.html" method="GET" class="form">
+        <h1 class="titulo">Cadastro</h1>
+
+    <div class="infos">
+        <input type="primnome" name="primnome" id="primnome" placeholder="Digite seu nome"><br>
+        <input type="sebnome" name="sobnome" id="sobnome" placeholder="Digite o seu sobrenome"><br>
+        <input type="email" name="email" id="email" placeholder="Email"><br>
+        <input type="password" name="senha" id="senha" placeholder="Senha"><br>
+        <input type="password" name="senha" id="senha" placeholder="Confirme sua senha"><br>
+    </div>
+    
+    <h2 class="titulo">Gênero</h2>
+    <div class="genero">
+        <select name="genero" id="genero">
+            <option value="">Selecione uma opção</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Personalizado">Personalizado</option>
+        </select>
+    </div>
+    
+    <div class="termos">
+        <br><input type="checkbox" name="termos" id="termos">
+        <label for="termos">Li e concordo com os termos</label><br>
+    
+        <input type="checkbox" name="novidades" id="novidades">
+        <label for="novidades">Desejo receber novidades</label><br>
+    </div>
+    
+    <button class="btn-cadastrar">Cadastrar</button><br>
+    <a href="login.html">Voltar para o login</a>    
+</form>
+</body>
+</html>
